@@ -1,0 +1,154 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body
+{
+    background-color: black;
+    color: white;
+}
+.container
+{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    border: 1px solid #21252D;
+    background-color: #21252D;
+}
+.logo
+{
+    display: flex;
+    flex-direction: row;
+}
+.logo h2
+{
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    margin-top: 5px;
+    text-shadow: 2px 2px 7px white;
+}
+.options
+{
+  margin-top: 20px;
+}
+.options a
+{
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 5px 30px 5px ;
+    margin-left: 10px; 
+    transition: 0.7s ease; 
+    font-family: 'EB Garamond', serif;
+    box-shadow: 1px 1px 1px 1px white;
+}
+.options a:hover
+{
+
+    background-color: white;
+    color: black;
+}
+.searchbar
+{
+    display: flex;
+    flex-direction: row;
+    margin-right: 5px;
+}
+input
+{
+    width: 300px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 50px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid white;
+    background-color: #21252D ;
+}
+::placeholder
+{
+    color: white;
+    font-family: 'EB Garamond', serif;
+}
+button
+{
+    padding: 5px 35px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    font-family: 'EB Garamond', serif;
+    font-weight: bold;
+    box-shadow: 1px 1px 3px 1px cornsilk;
+}
+.heading
+{
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+.items
+{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto;
+    grid-column-gap: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    overflow-y: hidden;
+    transition: transform 0.7s;
+    padding: 5px;
+}
+.items::-webkit-scrollbar 
+{
+    display: none;
+}
+.griditems > img
+{
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px 3px black;
+    
+}
+.griditems > p
+{
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+.griditems1 > img
+{
+    border-radius: 50%;
+}
+.bottom
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: auto;
+    height: 60px;
+    border: 1px solid #21252D;
+    background-color: #21252D;
+}
+.buttons
+{
+    margin-left:auto;
+    margin-right: auto;
+}
+.buttons > i
+{
+    padding-right: 20px;
+}
+.butt > i
+{
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+
