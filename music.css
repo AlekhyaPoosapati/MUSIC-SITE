@@ -257,7 +257,16 @@ label #sign-two
         margin-top: 0px;
         margin-right: 3px;
     }
-    
+    .items > .griditems > img
+    {
+        width: 120px;
+        height: 120px;
+    }
+    .items > .griditems1 > img 
+    {
+        width: 100px;
+        height: 100px;
+    }
     .head
     {
         font-size: 5px;
@@ -283,15 +292,25 @@ label #sign-two
     .items
     {
         margin-right: 10px;
+        margin-top: -10px;
     }
-    
+    .items > .griditems > img
+    {
+        width: 100px;
+        height: 100px;
+    }
+    .items > .griditems1 > img 
+    {
+        width: 100px;
+        height: 100px;
+    }
     #check , label #sign-one 
     {
-        margin-right: 13px;
+        margin-right: 50px;
     }
     .sear > i
     {
-        margin-left: 120px;
+        margin-left: 100px;
     }
     .heading
     {
@@ -299,8 +318,8 @@ label #sign-two
     } 
     .butt > i
     {
-        padding-right: 30px;
-        padding-left: 20px;
+        padding-right: 50px;
+        padding-left: 10px;
     }
     .buttons > i
     {
@@ -326,16 +345,27 @@ label #sign-two
     }
     .heading
     {
-        margin-top: 15px;
+        margin-top: 20px;
+        
     }
     .butt > i
     {
-        padding-right: -10px;
+        padding-right: 30px;
         padding-left: -10px;
     }
     .buttons > i
     {
     padding-right: 5px;
+    }
+    .items > .griditems > img
+    {
+        width: 140px;
+        height: 140px;
+    }
+    .items > .griditems1 > img 
+    {
+        width: 120px;
+        height: 120px;
     }
 }
 
