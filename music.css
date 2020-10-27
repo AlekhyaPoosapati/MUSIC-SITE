@@ -257,16 +257,7 @@ label #sign-two
         margin-top: 0px;
         margin-right: 3px;
     }
-    .items > .griditems > img
-    {
-        width: 120px;
-        height: 120px;
-    }
-    .items > .griditems1 > img 
-    {
-        width: 100px;
-        height: 100px;
-    }
+    
     .head
     {
         font-size: 5px;
@@ -293,16 +284,7 @@ label #sign-two
     {
         margin-right: 10px;
     }
-    .items > .griditems > img
-    {
-        width: 120px;
-        height: 120px;
-    }
-    .items > .griditems1 > img 
-    {
-        width: 100px;
-        height: 100px;
-    }
+    
     #check , label #sign-one 
     {
         margin-right: 13px;
