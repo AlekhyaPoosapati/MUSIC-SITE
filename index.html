@@ -11,12 +11,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital@0;1&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
 <body>
      <header>
          <div class="container">
+             
              <div class="logo">
-             <img src="logomusic1.PNG" width="60px" height="60px" /> <h2>MUSIC</h2>
+             <img class="imagemusic" src="logomusic1.PNG" width="60px" height="60px" /> <h2 class="headmusic">MUSIC</h2>
              </div>
              <div class="options">
              <a href="#">Home</a>
@@ -26,11 +28,16 @@
              </div>
              <div class="searchbar">
                 <div class="sear">
-                <i class="fa fa-search"></i>
+                <i class="fa fa-search" id="icon"></i>
                 <input  placeholder="Search for music you love 🎶🎶" >
                 </div>
                 <button>Sign in</button>
              </div>
+             <label for="checkbox" id="check">
+                <i class="fa fa-bars" id="sign-one"></i>
+                <i class="fa fa-times" id="sign-two"></i>
+             </label>
+            
          </div>
          <h2 class="heading">TOP CHARTS</h2>
          <div class="items">
@@ -139,9 +146,9 @@
                 <i class="fa fa-heart "></i>
              </div>
              <div class="buttons">
-                <i class="fa fa-step-backward fa-2x"></i>
-                <i class="fa fa-play-circle fa-2x"></i>
-                <i class="fa fa-pause-circle fa-2x"></i>
+                <i class="fa fa-step-backward fa-2x" id="butts1" ></i>
+                <i class="fa fa-play-circle fa-2x" ></i>
+                <i class="fa fa-pause-circle fa-2x" ></i>
                 <i class="fa fa-step-forward fa-2x" ></i>
              </div>
              <div class="butt">
